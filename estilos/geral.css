@@ -1,9 +1,10 @@
 :root {
-    --h1: #06BEC9;
+    --h1: #ffffff;
     --h2: #06BEC9;
     --h3: #06BEC9;
     --h4: #FBE6AA;
     --h5: #000000;
+    --h6: #06BEC9;
     --texto: #F2EFEB;
     --menu: ;
     --corpo: #111111;
@@ -31,10 +32,12 @@ body {
 h1 {
     color: var(--h1);
     font-family: "Archivo Black";
+    font-size: 5em;
 }
 h2 {
     color: var(--h2);
     font-family: "Archivo Black";
+    font-size: 2.7em;
 }
 h3 {
     color: var(--h3);
@@ -50,6 +53,11 @@ h5 {
     font-family: "Russo one";
     color: var(--h5);
     font-size: 2em;
+}
+h6 {
+    color: var(--h3);
+    font-family: "Archivo Black";
+    font-size: 1.2em;
 }
 p {
     line-height: 25px;

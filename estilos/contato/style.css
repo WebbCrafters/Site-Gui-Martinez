@@ -1,0 +1,64 @@
+
+/*                                                     Corpo             */
+
+
+
+
+/*                                                    Primeiro tela             */
+
+#primeiraTela {
+    display: grid;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 380px 60px 60px min-content;
+    padding-top: 60px;
+    width: 80vw;
+    max-width: 2000px;
+    height: 700px;
+}
+#primeiraTela img {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#primeiraTela h1 {
+    text-align: center;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#primeiraTela div {
+    grid-row: 4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: min-content min-content;
+    justify-content: space-around;
+    align-items: center;
+}
+#primeiraTela h6 {
+    text-align: center;
+    margin: 0%;
+}
+#primeiraTela p {
+    text-align: center;
+}
+.iconsPT {
+    height: 20px;
+}
+
+
+/*                                                    Outros             */
+
+
+#divisaoUm {
+    height: 200px;
+}
+#divisaoDois {
+    height: 200px;
+}
+#divisaoTres {
+    height: 200px;
+}
+#divisaoQuatro {
+    height: 200px;
+}
