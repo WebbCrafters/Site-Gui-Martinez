@@ -1,0 +1,198 @@
+:root {
+    --h1: #06BEC9;
+    --h2: #06BEC9;
+    --h3: #06BEC9;
+    --h4: #FBE6AA;
+    --texto: #F2EFEB;
+    --menu: ;
+    --corpo: #1D1E1E;
+    --azul: #06BEC9;
+    --preto: #000000;
+    --branco: #ffffff;
+    --vermelho: #F23838;
+    --footer: ;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+/*                                                     Corpo             */
+
+
+
+
+/*                                                    Primeiro tela             */
+
+#primeiraTela {
+    display: grid;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80vw;
+    max-width: 2000px;
+    height: 700px;
+}
+#primeiraTelaColUm img {
+    width: 80%;
+}
+#fotoGui {
+    display: block;
+    margin: auto;
+    height: 150px;
+    border-radius: 100%;
+}
+#PIntro {
+    text-align: justify;
+}
+#PIconsPT {
+    text-align: center;
+    width: 100%;
+}
+.iconsPT {
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+/*                                                    Personalização             */
+
+#imgSetas {
+    margin-left: 40px;
+    height: 100px;
+}
+#secaoPersonalização {
+    display: grid;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80vw;
+    max-width: 2000px;
+}
+#secPerColUm img {
+    width: 60%;
+}
+#secaoPersonalização h2 {
+    font-size: 3em;
+}
+
+
+/*                                                    Planos             */
+
+
+#secaoPlanos {
+    background-color: var(--preto);
+    display: grid;
+    margin: auto;
+    align-items: stretch;
+    justify-content: center;
+    padding: 50px 10vw 50px 10vw;
+    grid-template-columns: repeat(2, 1fr);
+    width: 78.5vw;
+    max-width: 2000px;
+}
+#secaoPlanos h3 {
+    margin-top: 0px;
+}
+#planosUm {
+    padding: 50px 30px;
+    background-color: var(--corpo);
+}
+#planosDois {
+    background: url(../../imagens/homem-corda.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#secaoPlanos li {
+    color: var(--texto);
+    font-weight: 500;
+    font-size: 1.3em;
+}
+#pBotoes {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+#botaoUm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50px;
+    width: 180px;
+    background-color: var(--azul);
+    color: var(--preto);
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+#botaoDois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 3px solid var(--azul);
+    height: 50px;
+    width: 180px;
+    background-color: var(--corpo);
+    color: var(--vermelho);
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+
+/*                                                    Comentarios             */
+
+
+#tituloCom {
+    text-align: center;
+    font-size: 3em;
+    color: var(--branco);
+}
+#secaoComentarios {
+    display: grid;
+    margin: auto;
+    align-items: stretch;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80vw;
+    max-width: 2000px;
+}
+.container {
+    display: grid;
+    position: relative;
+    grid-template-rows: 300px 200px;
+    width: 25vw;
+    background-color: var(--branco);
+    border-radius: 5px;
+}
+.textoCom {
+    padding: 30px;
+    font-size: 1.1em;
+    color: var(--preto);
+}
+.container h5 {
+    padding: 30px;
+}
+.comentarios {
+    max-width: 25vw;
+}
+
+
+/*                                                    Outros             */
+
+
+#divisaoUm {
+    height: 200px;
+}
+#divisaoDois {
+    height: 200px;
+    background-image: linear-gradient(to bottom, var(--corpo), var(--preto));
+}
+#divisaoTres {
+    height: 200px;
+    background-image: linear-gradient(to bottom, var(--preto), var(--corpo));
+}
+#divisaoQuatro {
+    height: 200px;
+}
