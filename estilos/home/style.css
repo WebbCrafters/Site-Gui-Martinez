@@ -15,7 +15,8 @@
     grid-template-columns: repeat(2, 1fr);
     width: 80vw;
     max-width: 2000px;
-    height: 700px;
+    padding-top: 100px;
+    height: 500px;
 }
 #primeiraTelaColUm img {
     width: 80%;
