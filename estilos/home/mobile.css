@@ -133,7 +133,7 @@ header {
 
 #secaoPlanos {
     grid-template-columns: repeat(1, 1fr);
-    max-width: 70vw;
+    max-width: 85vw;
 }
 #planosDois {
     align-self: baseline;
@@ -155,7 +155,8 @@ header {
 }
 .container {
     justify-self: center;
-    width: 60vw;
+    width: 90vw;
+    max-width: 300px;
     margin-bottom: 30px;
 }
 .textoCom {

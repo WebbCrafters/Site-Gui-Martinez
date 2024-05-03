@@ -72,7 +72,8 @@
     margin: auto;
     align-items: stretch;
     justify-content: center;
-    padding: 50px 10vw 50px 10vw;
+    box-sizing: border-box;
+    padding: 50px 0px 50px 0px;
     grid-template-columns: repeat(2, 1fr);
     width: 78.5vw;
     max-width: 2000px;
