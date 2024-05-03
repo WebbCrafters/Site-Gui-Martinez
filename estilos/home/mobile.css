@@ -136,9 +136,7 @@ header {
     max-width: 85vw;
 }
 #planosDois {
-    align-self: baseline;
-    width: 85vw;
-    height: 500px;
+    
 }
 #secaoPlanos li {
     font-weight: 500;

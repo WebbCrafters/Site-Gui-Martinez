@@ -43,11 +43,13 @@ header div {
     display: grid;
     height: 65px;
 }
+#linkImg {
+    grid-row: 1;
+}
 header img {
     display: inline;
     width: auto;
     height: 65px;
-    grid-row: 1;
     padding-left: 20px;
 }
 header menu {
