@@ -51,16 +51,18 @@ header img {
     padding-left: 20px;
 }
 header menu {
+    margin: 0px;
+    height: 65px;
+    display: flex;
     text-align: end;
     grid-row: 1;
+    justify-content: flex-end;
 }
 header p {  
     text-align: right;
     display: inline;
-    justify-self: end;
     width: 60%;
     height: 33px;
-    
     padding-right: 30px;
 }
 header menu a {
