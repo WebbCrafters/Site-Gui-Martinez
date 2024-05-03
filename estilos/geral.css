@@ -41,6 +41,7 @@ header {
 }
 header div {
     display: grid;
+    height: 65px;
 }
 header img {
     display: inline;
@@ -49,16 +50,20 @@ header img {
     grid-row: 1;
     padding-left: 20px;
 }
+header menu {
+    text-align: end;
+    grid-row: 1;
+}
 header p {  
     text-align: right;
     display: inline;
     justify-self: end;
     width: 60%;
     height: 33px;
-    grid-row: 1;
+    
     padding-right: 30px;
 }
-header a {
+header menu a {
     padding: 0px 20px 20px 20px;
     margin-left: 40px;
     color: var(--branco);
@@ -67,7 +72,7 @@ header a {
     font-size: 1em;
 }
 
-header a:hover {
+header menu a:hover {
     border-bottom: 3px solid var(--branco); 
 }
 @media screen and (max-width: 800px) and (min-width: 600px) {
@@ -165,4 +170,13 @@ footer .iconsPT {
         margin-bottom: 60px;
         font-size: 1.2em;
     }
+}
+
+
+
+/*                                                    Outros             */
+
+
+.soMobile {
+    display: none;
 }

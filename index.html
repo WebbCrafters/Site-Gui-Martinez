@@ -17,7 +17,29 @@
     <header>
         <div>
             <img src="imagens/icon-gui.png" alt="Logo Gui Martinez">
-            <p><a href="">Serviços</a><a href="contato.html">Contato</a></p>
+            <menu class="naoMobile">
+                <p><a href="">Serviços</a><a href="contato.html" target="_self">Contato</a></p>
+            </menu>
+        </div>
+
+        <p id="PIconMenu">
+            <img class="iconMenu soMobile" src="imagens/menu-aberto.png" alt="Menu" onclick="expandirMenu()">
+        </p>
+        <div class="espacoMenu soMobile">
+            <div id="cabecalho">
+                <section id="secaoImagensDois">
+                    <img class="logoHeader" src="imagens/icon-gui.png" alt="Logo Gui Martinez">
+                </section>
+                <img id="iconMenuDois" class="iconMenu soMobile" src="imagens/letra-x.png" alt="Menu" onclick="expandirMenu()">
+            </div>
+            <div id="controle">
+                <div class="itemMenuRetroativo">
+                    <a href="contato.html" target="_self">Contato</a>
+                </div>
+                <div class="itemMenuRetroativo">
+                    <a href="" target="_self">Serviços</a>
+                </div>
+            </div>
         </div>
     </header>
     <main>
@@ -143,5 +165,23 @@
             <a href="" target="_blank"><span><img class="iconsPT" src="imagens/tt-branco-removebg-preview.png" alt="Logo do Twitter"></span></a>
         </p>
     </footer>
+    <script>
+    
+        let menuAberto = false;
+
+        function expandirMenu() {
+            const menu = document.querySelector('.espacoMenu');
+            const iconMenu = document.querySelector('#iconMenuDois');
+        
+            if (!menuAberto) {
+                menu.classList.add('aberto'); // Adiciona a classe 'aberto' para mostrar o menu
+            } else {
+                menu.classList.remove('aberto'); // Remove a classe 'aberto' para esconder o menu
+            }
+        
+            menuAberto = !menuAberto; // Inverte o estado do menu
+        }
+
+    </script>
 </body>
 </html>
