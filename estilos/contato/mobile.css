@@ -1,3 +1,88 @@
+/*                                                    Header*/
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.iconMenu {
+    display: block;
+    margin-right: 10px;
+    cursor: pointer;
+    height: 25px;
+    width: auto;
+}
+.espacoMenu {
+    position: fixed;
+    top: 0;
+    left: -100%; /* Esconde o menu à esquerda */
+    width: 100%;
+    height: 1500px;
+    background-color: var(--corpo);
+    transition: left 0.2s ease; /* Adiciona uma transição suave */
+}
+.espacoMenu.aberto {
+    left: 0; /* Mostra o menu */
+}
+#controle {
+    display: flex;
+    overflow-y: auto;
+    height: calc(100vh - 100px);
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+#controle::-webkit-scrollbar {
+    width: 0px; /* Largura da barra de rolagem */
+}
+#PIconMenu {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#iconMenuDois {
+    margin: 0px 10px 0px 0px;
+}
+#cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--branco);
+    padding: 7px;
+    padding-left: 0px;
+    height: 80px;
+}
+#logoMenuRetro {
+    padding-left: 0px;
+}
+#cabecalho #secaoImagensDois {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 10px;
+}
+.itemMenuRetroativo {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-bottom: 1px solid var(--branco);
+    width: 85vw;
+    height: 100px;
+}
+.itemMenuRetroativo a {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--branco);
+    margin-left: 0px;
+}
+.itemMenuRetroativo a:hover {
+    color: var(--azul);
+}
+
+/*                                                    corpo*/
+
+
 #primeiraTela div {
     grid-template-columns: repeat(1, 1fr);
 }
@@ -14,4 +99,16 @@ h6 {
 .iconsPT {
     width: 35px;
     height: auto;
+}
+
+
+/*                                                    Outros */
+
+
+
+.soMobile {
+    display: block;
+}
+.naoMobile {
+    display: none;
 }

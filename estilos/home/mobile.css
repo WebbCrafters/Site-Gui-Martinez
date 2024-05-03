@@ -65,7 +65,11 @@ header {
     justify-content: space-between;
     border-bottom: 1px solid var(--branco);
     padding: 7px;
+    padding-left: 0px;
     height: 80px;
+}
+#logoMenuRetro {
+    padding-left: 0px;
 }
 #cabecalho #secaoImagensDois {
     display: flex;

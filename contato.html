@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="imagens/icon-gui.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/geral.css">
     <link rel="stylesheet" href="estilos/contato/style.css">
+    s
     <link rel="stylesheet" href="estilos/contato/mobile.css" media="screen and (max-width: 600px)">
     <link rel="stylesheet" href="estilos/contato/tablet.css" media="screen and (min-width: 601px) and (max-width: 1000px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +19,32 @@
     <header>
         <div>
             <img src="imagens/icon-gui.png" alt="Logo Gui Martinez">
-            <p><a href="index.html">início</a><a href="">Serviços</a></p>
+            <menu class="naoMobile">
+                <p>
+                    <a href="index.html" target="_self">início</a>
+                    <a href="" target="_self">Serviços</a>
+                </p>
+            </menu>
+        </div>
+
+        <p id="PIconMenu">
+            <img class="iconMenu soMobile" src="imagens/menu-aberto.png" alt="Menu" onclick="expandirMenu()">
+        </p>
+        <div class="espacoMenu soMobile">
+            <div id="cabecalho">
+                <section id="secaoImagensDois">
+                    <img class="logoHeader" src="imagens/icon-gui.png" alt="Logo Gui Martinez">
+                </section>
+                <img id="iconMenuDois" class="iconMenu soMobile" src="imagens/letra-x.png" alt="Menu" onclick="expandirMenu()">
+            </div>
+            <div id="controle">
+                <div class="itemMenuRetroativo">
+                    <a href="index.html" target="_self">Home</a>
+                </div>
+                <div class="itemMenuRetroativo">
+                    <a href="" target="_self">Serviços</a>
+                </div>
+            </div>
         </div>
     </header>
     <main>
@@ -69,5 +95,6 @@
             <a href="" target="_blank"><span><img class="iconsPT" src="imagens/tt-branco-removebg-preview.png" alt="Logo do Twitter"></span></a>
         </p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
