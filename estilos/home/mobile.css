@@ -133,10 +133,15 @@ header {
 
 #secaoPlanos {
     grid-template-columns: repeat(1, 1fr);
+    padding: 20px 0px 20px 0px;
     max-width: 85vw;
 }
-#planosDois {
-    
+#planosUm {
+    max-width: 80vw;
+    padding: 25px 15px;
+}
+#planosDois img {
+    max-width: 80vw;
 }
 #secaoPlanos li {
     font-weight: 500;
