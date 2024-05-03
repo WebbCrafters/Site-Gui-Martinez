@@ -147,6 +147,18 @@ header {
     font-weight: 500;
     font-size: 1.3em;
 }
+#botaoUm {
+    height: 40px;
+    width: 140px;
+    font-size: 1em;
+    font-weight: 900;
+}
+#botaoDois {
+    height: 40px;
+    width: 140px;
+    font-size: 1em;
+    font-weight: 700;
+} 
 
 
 /*                                                    Comentarios             */

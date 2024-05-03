@@ -99,6 +99,8 @@
     display: flex;
     justify-content: space-around;
     margin: auto;
+    align-content: center;
+    flex-wrap: wrap;
 }
 #botaoUm {
     display: flex;
@@ -112,7 +114,6 @@
     font-size: 1.2em;
     font-weight: 900;
 }
-
 #botaoDois {
     display: flex;
     justify-content: center;
