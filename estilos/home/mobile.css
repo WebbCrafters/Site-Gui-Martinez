@@ -140,12 +140,15 @@ header {
     max-width: 80vw;
     padding: 25px 15px;
 }
+#secaoPlanos h3 {
+    font-size: 2em;
+}
 #planosDois img {
     max-width: 80vw;
 }
 #secaoPlanos li {
     font-weight: 500;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 #botaoUm {
     height: 40px;
