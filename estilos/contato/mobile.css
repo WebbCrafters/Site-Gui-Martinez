@@ -1,0 +1,17 @@
+#primeiraTela div {
+    grid-template-columns: repeat(1, 1fr);
+}
+article {
+    justify-self: center;
+    margin-bottom: 70px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--azul);
+    width: 60vw;
+}
+h6 {
+    font-size: 1.8em;
+}
+.iconsPT {
+    width: 35px;
+    height: auto;
+}

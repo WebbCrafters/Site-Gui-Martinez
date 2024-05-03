@@ -142,7 +142,7 @@
     justify-content: space-around;
     grid-template-columns: repeat(3, 1fr);
     width: 80vw;
-    max-width: 2000px;
+    max-width: 2000px; 
 }
 .container {
     display: grid;
@@ -173,12 +173,20 @@
 }
 #divisaoDois {
     height: 200px;
+    width: 100%;
     background-image: linear-gradient(to bottom, var(--corpo), var(--preto));
 }
 #divisaoTres {
     height: 200px;
+    width: 100%;
     background-image: linear-gradient(to bottom, var(--preto), var(--corpo));
 }
 #divisaoQuatro {
     height: 200px;
+}
+#fundoPreto {
+    background-color: var(--preto);
+}
+#ComQuatro {
+    display: none;
 }
