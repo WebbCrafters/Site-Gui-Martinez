@@ -75,12 +75,15 @@ header img {
     border-bottom: 1px solid var(--branco);
     width: 85vw;
     height: 100px;
+    align-content: center;
+    flex-wrap: wrap;
 }
 .itemMenuRetroativo a {
     font-size: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--branco);
     margin-left: 0px;
+    padding-bottom: 0px;
 }
 .itemMenuRetroativo a:hover {
     color: var(--azul);
@@ -96,11 +99,11 @@ article {
     justify-self: center;
     margin-bottom: 70px;
     padding-bottom: 10px;
-    border-bottom: 1px solid var(--azul);
-    width: 60vw;
+    border-bottom: 1px solid var(--azulFraco);
+    width: 75vw;
 }
 h6 {
-    font-size: 1.8em;
+    font-size: 1.3em;
 }
 .iconsPT {
     width: 35px;

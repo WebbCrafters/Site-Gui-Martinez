@@ -9,6 +9,7 @@
     --menu: ;
     --corpo: #111111;
     --azul: #06BEC9;
+    --azulFraco: #2f6063;
     --preto: #000000;
     --branco: #ffffff;
     --vermelho: #F23838;
@@ -38,7 +39,7 @@ header {
     margin: 0px;
     width: 100%;
     border-bottom: 1px solid var(--branco);
-}
+} 
 header div {
     display: grid;
     height: 65px;
