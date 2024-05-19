@@ -53,6 +53,7 @@ header menu a {
     margin: auto;
     justify-self: center;
     margin-bottom: 50px;
+    padding-left: 0px;
 }
 #secaoPersonalização h2 {
     font-size: 3em;

@@ -133,6 +133,7 @@ header img {
 }
 #secPerColUm img {
     display: none;
+    padding-left: 0px;
 }
 #secaoPersonalização h2 {
     font-size: 2.5em;
