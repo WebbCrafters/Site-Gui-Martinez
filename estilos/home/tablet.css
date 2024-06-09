@@ -90,37 +90,7 @@ header menu a {
 }
 
 
-/*                                                    Comentarios             */
 
-
-
-#secaoComentarios {
-    width: 95vw;
-    grid-template-columns: repeat(2, 1fr);
-}
-.container {
-    justify-self: center;
-    width: 43vw;
-    max-width: 300px;
-    margin: 10px 15px 15px 15px;
-    grid-template-rows: 380px 200px;
-}
-.textoCom {
-    padding: 30px;
-    font-size: 1em;
-}
-.container:nth-child(1) {
-    justify-self: end;
-}
-.container:nth-child(2) {
-    justify-self: baseline;
-}
-.container:nth-child(3) {
-    justify-self: end;
-}
-.container:nth-child(4) {
-    justify-self: baseline;
-}
 
 /*                                                    Outros             */
 

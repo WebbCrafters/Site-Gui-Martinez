@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Título com Linha</title>
+  <style>
+    .title-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .title {
+      margin: 0;
+      padding-right: 10px;
+      white-space: nowrap; /* Evita quebra de linha no título */
+    }
+
+    .line {
+      flex-grow: 1;
+      height: 1px;
+      background-color: #000;
+      transform: translateY(-50%); /* Ajusta a linha para o meio do texto */
+    }
+  </style>
+</head>
+<body>
+  <div class="title-container">
+    <h1 class="title">Meu Título</h1>
+    <div class="line"></div>
+  </div>
+  <img src="imagens/bolinhas.png" alt="">
+  <!-- Conteúdo adicional da página -->
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gui Martinez</title>
+    <link rel="shortcut icon" href="imagens/icon-gui.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/geral.css">
+    <link rel="stylesheet" href="estilos/servicos/style.css">
+    <link rel="stylesheet" href="estilos/servicos/mobile.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="estilos/servicos/tablet.css" media="screen and (min-width: 601px) and (max-width: 1100px)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Permanent+Marker&family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div>
+            <a id="linkImg" href="index.html" target="_self">
+                <img src="imagens/icon-gui.png" alt="Logo Gui Martinez">
+            </a>
+            <menu class="naoMobile">
+                <p>
+                    <a href="servicos.html" target="_self">Serviços</a>
+                    <a href="contato.html" target="_self">Contato</a>
+                </p>
+            </menu>
+        </div>
+
+        <p id="PIconMenu" class="soMobile">
+            <img class="iconMenu soMobile" src="imagens/menu-aberto.png" alt="Menu" onclick="expandirMenu()">
+        </p>
+        <div class="espacoMenu soMobile">
+            <div id="cabecalho">
+                <section id="secaoImagensDois">
+                    <img id="logoMenuRetro" class="logoHeader" src="imagens/icon-gui.png" alt="Logo Gui Martinez">
+                </section>
+                <img id="iconMenuDois" class="iconMenu soMobile" src="imagens/letra-x.png" alt="Menu" onclick="expandirMenu()">
+            </div>
+            <div id="controle">
+                <div class="itemMenuRetroativo">
+                    <a href="contato.html" target="_self">Contato</a>
+                </div>
+                <div class="itemMenuRetroativo">
+                    <a href="" target="_self">Serviços</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="telaUm">
+            <div id="conteinerUm">
+                <img src="imagens/fotoServicos1.png" alt="Homem fazendo musculação">
+                <h2>Serviços</h2>
+            </div>
+            <div id="conteinerDois">
+                <span id="g1" class="grade">Sobre</span>
+                <span id="g2" class="grade"><a href="#sectionVantagens">Vantagens</a></span>
+                <span id="g3" class="grade">faq</span>
+                <span id="g4" class="grade">Eletroestimulação</span>
+                <span id="g5" class="grade"><a href="">Avaliações</a></span>
+                <span id="g6" class="grade">Treino</span>
+                <span id="g7" class="grade"><img src="imagens/icon-braco.png" alt="Ícone de um braço"></span>
+                <span id="g8" class="grade"><a href="#sectionPlanejamento">Planejamento de treino</a></span>
+            </div>
+        </section>
+        <section id="sectionVantagens">
+            <div class="title-container">
+                <h2 class="title">Vantagens</h2>
+                <div class="line"></div>
+            </div>
+            <div id="conteinerVantagens">
+                <span id="GV1" class="gradeVantagens">Perda de gordura corporal</span>
+                <span id="GV2" class="gradeVantagens">Mais disposição</span>
+                <span id="GV3" class="gradeVantagens">Ganho de massa muscular</span>
+                <span id="GV4" class="gradeVantagens">Manutenção da saúde geral</span>
+            </div>
+        </section>
+        <section id="sectionPlanejamento">
+            <div id="conteinerPlanejamentoUm">
+                <h2>Planejamento<br> de treino</h2>
+                <h6>Os treinos contém:</h6>
+                <ul>
+                    <li>Nomes dos exercícios</li>
+                    <li>Quantidade de repetições</li>
+                    <li>45 á 60 minutos de duração</li>
+                    <li>Métodos de treinos utilizados entre as séries</li>
+                    <li>Tempo dos intervalos de descansos e cadências</li>  
+                </ul>
+            </div>
+            <div id="conteinerPlanejamentoDois">
+                <img src="imagens/linha-torta.png">
+            </div>
+            <div id="conteinerPlanejamentoTres">
+                <p>
+                    Todo planejamento de treino é <i>detalhado</i> com divisão corporal, podendo ser divididos <i>por dias da semana</i> ou dentro do tempo disponível que você tem para frequentar a academia.
+
+                    A cada mês o resultado do planejamento proposto é <i>mensurado</i>, para que assim o mesmo possa ser renovado
+                </p>
+            </div>
+        </section>
+        <h2 id="tituloCom">
+            Avaliações
+        </h2>
+        <section id="secaoComentarios">
+            <article id="ComUm" class="container">
+                <p class="textoCom">
+                    Incrível experiência de treinamento! Meu personal trainer me motivou a alcançar metas que nunca imaginei serem possíveis. Sua abordagem personalizada e seu conhecimento profundo me ajudaram a transformar meu corpo e minha mentalidade em relação ao fitness. Altamente recomendado!
+                </p>
+                <h5>
+                    Gabriel<br>Xavier
+                </h5>
+            </article>
+            <article id="ComDois" class="container">
+                <p class="textoCom">
+                    Meu personal trainer é simplesmente fenomenal! Ele não apenas me ajudou a atingir meus objetivos de condicionamento físico, mas também me ensinou técnicas seguras e eficazes de exercício. Sua energia contagiante e seu compromisso com o meu sucesso fizeram toda a diferença na minha jornada de saúde e bem-estar.
+                </p>
+                <h5>
+                    Mateus<br>Freitas
+                </h5>
+            </article>
+            <article id="ComTres" class="container">
+                <p class="textoCom">
+                    Estou muito grato pelo meu personal trainer! Ele não só me ajudou a perder peso e ganhar músculos, mas também me deu confiança e disciplina. Sua abordagem atenciosa e encorajadora me fez olhar para o treinamento de uma maneira totalmente nova. Mal posso esperar para continuar trabalhando com ele e alcançar novos patamares!
+                </p>
+                <h5>
+                    Arthur<br>Santos
+                </h5>
+            </article>
+            <article id="ComQuatro" class="container">
+                <p class="textoCom">
+                    Estou incrivelmente grato pelo meu personal trainer! Ele não apenas me ajudou a perder peso e ganhar músculos, mas também me deu confiança e disciplina. Sua abordagem atenciosa e encorajadora me fez enxergar o treinamento de uma maneira totalmente nova.
+                </p>
+                <h5>
+                    Roberta<br>Alcantara
+                </h5>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <h2>
+            Gui Martinez
+        </h2>
+        <br>
+        <p class="slogan">
+            Transforme seu corpo, transforme sua vida
+        </p>
+        <br>
+        <p>
+            Fale comigo!
+        </p>
+        <br>
+        <p>
+            <a href="" target="_blank"><span><img class="iconsPT" src="imagens/insta-branco-removebg-preview.png" alt="Logo do Instagram"></span></a>
+            <a href="" target="_blank"><span><img class="iconsPT" src="imagens/face-branco-removebg-preview.png" alt="Logo do Facebook"></span></a>
+            <a href="" target="_blank"><span><img class="iconsPT" src="imagens/tt-branco-removebg-preview.png" alt="Logo do Twitter"></span></a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

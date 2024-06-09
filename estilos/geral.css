@@ -17,7 +17,9 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 body {
     display: block;
     margin: 0px;
