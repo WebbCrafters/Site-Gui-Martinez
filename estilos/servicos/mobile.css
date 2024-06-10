@@ -109,7 +109,7 @@ header img {
 }
 #conteinerUm img {
     margin: auto;
-    width: 95vw;
+    width: 90vw;
     grid-row: 2;
     margin-bottom: 100px;
 }
@@ -120,7 +120,23 @@ header img {
     grid-row: 1;
     margin-bottom: 20px;
 }
+#conteinerDois {
+    display: grid;
+    align-content: center;
+    grid-template-rows: min-content;
+    width: 100%;
+    grid-template-columns: repeat(20, 1fr);
+}
 #conteinerDois span.grade {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid var(--azul);
+    border-radius: 3px;
+    height: 50px;
+    width: 100%;
     margin: 5px 0px 5px 0px;
 }
 #g2{
@@ -210,7 +226,9 @@ header img {
 
 /*                                                    Comentarios             */
 
-
+#secaoComentarios {
+    display: none;
+}
 #tituloCom {
     font-size: 2em;
 }
@@ -243,4 +261,7 @@ header img {
 }
 .naoMobile {
     display: none;
+}
+#comentariosCarousel {
+    display: block;
 }

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gui Martinez</title>
     <link rel="shortcut icon" href="imagens/icon-gui.png" type="image/x-icon">
+    <link href="estilos/bootstrap.css" rel="stylesheet" media="screen and (max-width: 1100px)">
     <link rel="stylesheet" href="estilos/geral.css">
     <link rel="stylesheet" href="estilos/servicos/style.css">
     <link rel="stylesheet" href="estilos/servicos/mobile.css" media="screen and (max-width: 600px)">
@@ -49,7 +50,7 @@
         </div>
     </header>
     <main>
-        <section id="telaUm">
+        <section id="telaUm"> 
             <div id="conteinerUm">
                 <img src="imagens/fotoServicos1.png" alt="Homem fazendo musculação">
                 <h2>Serviços</h2>
@@ -115,40 +116,60 @@
         <h2 id="tituloCom">
             Avaliações
         </h2>
-        <section id="secaoComentarios">
-            <article id="ComUm" class="container">
-                <p class="textoCom">
-                    Incrível experiência de treinamento! Meu personal trainer me motivou a alcançar metas que nunca imaginei serem possíveis. Sua abordagem personalizada e seu conhecimento profundo me ajudaram a transformar meu corpo e minha mentalidade em relação ao fitness. Altamente recomendado!
-                </p>
-                <h5>
-                    Gabriel<br>Xavier
-                </h5>
-            </article>
-            <article id="ComDois" class="container">
-                <p class="textoCom">
-                    Meu personal trainer é simplesmente fenomenal! Ele não apenas me ajudou a atingir meus objetivos de condicionamento físico, mas também me ensinou técnicas seguras e eficazes de exercício. Sua energia contagiante e seu compromisso com o meu sucesso fizeram toda a diferença na minha jornada de saúde e bem-estar.
-                </p>
-                <h5>
-                    Mateus<br>Freitas
-                </h5>
-            </article>
-            <article id="ComTres" class="container">
-                <p class="textoCom">
-                    Estou muito grato pelo meu personal trainer! Ele não só me ajudou a perder peso e ganhar músculos, mas também me deu confiança e disciplina. Sua abordagem atenciosa e encorajadora me fez olhar para o treinamento de uma maneira totalmente nova. Mal posso esperar para continuar trabalhando com ele e alcançar novos patamares!
-                </p>
-                <h5>
-                    Arthur<br>Santos
-                </h5>
-            </article>
-            <article id="ComQuatro" class="container">
-                <p class="textoCom">
-                    Estou incrivelmente grato pelo meu personal trainer! Ele não apenas me ajudou a perder peso e ganhar músculos, mas também me deu confiança e disciplina. Sua abordagem atenciosa e encorajadora me fez enxergar o treinamento de uma maneira totalmente nova.
-                </p>
-                <h5>
-                    Roberta<br>Alcantara
-                </h5>
-            </article>
-        </section>
+        <div id="comentariosCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <article class="container">
+                        <p class="textoCom">
+                            Incrível experiência de treinamento! Meu personal trainer me motivou a alcançar metas que nunca imaginei serem possíveis. Sua abordagem personalizada e seu conhecimento profundo me ajudaram a transformar meu corpo e minha mentalidade em relação ao fitness. Altamente recomendado!
+                        </p>
+                        <h5>
+                            Gabriel<br>Xavier
+                        </h5>
+                    </article>
+                </div>
+                <div class="carousel-item">
+                    <article class="container">
+                        <p class="textoCom">
+                            Meu personal trainer é simplesmente fenomenal! Ele não apenas me ajudou a atingir meus objetivos de condicionamento físico, mas também me ensinou técnicas seguras e eficazes de exercício. Sua energia contagiante e seu compromisso com o meu sucesso fizeram toda a diferença na minha jornada de saúde e bem-estar.
+                        </p>
+                        <h5>
+                            Mateus<br>Freitas
+                        </h5>
+                    </article>
+                </div>
+                <div class="carousel-item">
+                    <article class="container">
+                        <p class="textoCom">
+                            Estou muito grato pelo meu personal trainer! Ele não só me ajudou a perder peso e ganhar músculos, mas também me deu confiança e disciplina. Sua abordagem atenciosa e encorajadora me fez olhar para o treinamento de uma maneira totalmente nova. Mal posso esperar para continuar trabalhando com ele e alcançar novos patamares!
+                        </p>
+                        <h5>
+                            Arthur<br>Santos
+                        </h5>
+                    </article>
+                </div>
+                <div class="carousel-item">
+                    <article class="container">
+                        <p class="textoCom">
+                            Estou incrivelmente grato pelo meu personal trainer! Ele não apenas me ajudou a perder peso e ganhar músculos, mas também me deu confiança e disciplina. Sua abordagem atenciosa e encorajadora me fez enxergar o treinamento de uma maneira totalmente nova.
+                        </p>
+                        <h5>
+                            Roberta<br>Alcantara
+                        </h5>
+                    </article>
+                </div>
+            </div>
+        
+            <!-- Controles do carrossel -->
+            <a class="carousel-control-prev" href="#comentariosCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#comentariosCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
     </main>
     <footer>
         <h2>
@@ -170,5 +191,8 @@
         </p>
     </footer>
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
