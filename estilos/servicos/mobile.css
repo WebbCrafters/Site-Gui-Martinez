@@ -9,9 +9,6 @@ p {
 
 
 
-
-
-
 /*                                                    Header*/
 
 
@@ -102,6 +99,95 @@ header img {
 .itemMenuRetroativo a:hover {
     color: var(--azul);
 }
+
+
+/*                                                    Primeiro tela             */
+
+#telaUm {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+}
+#conteinerUm img {
+    margin: auto;
+    width: 90vw;
+    grid-row: 2;
+    margin-bottom: 100px;
+}
+#conteinerUm h2 {
+    text-align: center;
+    color: var(--branco);
+    font-size: 4em;
+    grid-row: 1;
+    margin-bottom: 20px;
+}
+#conteinerDois span.grade {
+    margin: 5px 0px 5px 0px;
+}
+#g2{
+    grid-column-end: 21;
+}
+#g4{
+    grid-column-end: 21;
+}
+#g6{
+    grid-column-end: 21;
+}
+#g8{
+    grid-column-end: 21;
+}
+
+/*                                                   vantagens             */
+
+
+#conteinerVantagens {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.gradeVantagens {
+    border-radius: 20px;
+    margin: 10px;
+    height: 50px;
+    width: 100%;
+    font-size: 1em;
+}
+#GV2 {
+    grid-row: 2;
+    grid-column-start: 2;
+    grid-column-end: 8;
+}
+#GV3 {
+    grid-row: 2;
+    grid-column-start: 9;
+    grid-column-end: 18;
+}
+
+
+/*                                                   planejamento            */
+
+#sectionPlanejamento {
+    width: 90%;
+    grid-template-columns: 1fr;
+}
+#sectionPlanejamento img {
+    display: none;
+} 
+#brPlanejamento {
+    display: none;
+}
+#sectionPlanejamento p {
+    text-align: left;
+    width: 80vw;
+    margin: 0px;
+    margin-top: 20px;
+}
+#artPlanoUm {
+    display: none;
+}
+#artPlanoDois {
+    display: block;
+}
+
 
 
 

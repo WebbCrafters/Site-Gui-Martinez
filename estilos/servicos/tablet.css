@@ -22,6 +22,114 @@ header menu a {
 
 /*                                                    Primeiro tela             */
 
+#telaUm {
+    width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 130px;
+    margin-bottom: 200px;
+}
+#conteinerUm img {
+    margin: auto;
+    width: 65vw;
+    grid-row: 2;
+    margin-bottom: 100px;
+}
+#conteinerUm h2 {
+    text-align: center;
+    color: var(--branco);
+    font-size: 3em;
+    grid-row: 1;
+    margin-bottom: 20px;
+}
+#g2{
+    grid-column-end: 21;
+}
+#g4{
+    grid-column-end: 21;
+}
+#g6{
+    grid-column-end: 21;
+}
+#g8{
+    grid-column-end: 21;
+}
+
+
+/*                                                   vantagens             */
+
+
+#conteinerVantagens {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.gradeVantagens {
+    border-radius: 30px;
+    margin: 10px;
+    height: 70px;
+    width: 100%;
+    font-size: 1.3em;
+}
+#GV2 {
+    grid-row: 2;
+    grid-column-start: 2;
+    grid-column-end: 8;
+}
+#GV3 {
+    grid-row: 2;
+    grid-column-start: 9;
+    grid-column-end: 18;
+}
+
+
+/*                                                   planejamento            */
+
+#sectionPlanejamento {
+    width: 90%;
+    grid-template-columns: 40% 15% 45%;
+}
+#sectionPlanejamento img {
+    height: 80%;
+    padding-top: 20%;
+} 
+#sectionPlanejamento ul {
+    line-height: 35px;
+    font-size: 1em;
+}
+#sectionPlanejamento p {
+    line-height: 35px;
+    font-size: 1em;
+}
+#conteinerPlanejamentoDois {
+    align-content: flex-start;
+}
+
+@media screen and (max-width: 850px) {
+    #sectionPlanejamento {
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+    #sectionPlanejamento img {
+        display: none;
+    } 
+    #brPlanejamento {
+        display: none;
+    }
+    #sectionPlanejamento p {
+        text-align: left;
+        width: 80vw;
+        margin: 0px;
+        margin-top: 50px;
+    }
+    #artPlanoUm {
+        display: none;
+    }
+    #artPlanoDois {
+        display: block;
+    }
+}
+
+
 /*                                                    Comentarios             */
 
 

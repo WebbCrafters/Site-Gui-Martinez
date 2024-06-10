@@ -223,6 +223,9 @@
 #sectionPlanejamento i {
     color: var(--azul);
 }
+#artPlanoDois {
+    display: none;
+}
 
 /*                                                    Comentarios             */
 
@@ -263,4 +266,4 @@
 }
 #ComQuatro {
     display: none;
-}
+} 
