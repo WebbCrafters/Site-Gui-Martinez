@@ -127,6 +127,9 @@ header menu a {
     #artPlanoDois {
         display: block;
     }
+    #artPlanoDois h6 {
+        margin-top: 40px;
+    }
 }
 
 
@@ -160,3 +163,11 @@ header menu a {
     display: block;
 }
 
+/*                                                Rodapé             */
+
+footer {
+    margin-top: 50px;
+}
+footer h2 {
+    margin-top: 60px;
+}

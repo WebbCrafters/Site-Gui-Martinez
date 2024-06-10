@@ -116,12 +116,13 @@ header img {
 #conteinerUm h2 {
     text-align: center;
     color: var(--branco);
-    font-size: 2.5em;
+    font-size: 2.8em;
     grid-row: 1;
     margin-bottom: 20px;
 }
 #conteinerDois {
     display: grid;
+    margin: auto;
     align-content: center;
     grid-template-rows: min-content;
     width: 100%;
@@ -156,19 +157,20 @@ header img {
 
 
 .title {
-    font-size: 2em;
+    font-size: 2.3em;
 }
 #conteinerVantagens {
-    width: 90%;
+    margin: auto;
+    width: 95%;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 .gradeVantagens {
     border-radius: 20px;
-    margin: 10px;
-    height: 50px;
+    margin: 5px;
+    height: 60px;
     width: 100%;
-    font-size: 0.95em;
+    font-size: 1em;
 }
 #GV1 {
     grid-row: 1;
@@ -207,11 +209,16 @@ header img {
 #brPlanejamento {
     display: none;
 }
+#sectionPlanejamento ul {
+    line-height: 30px;
+    font-size: 1em;
+}
 #sectionPlanejamento p {
     text-align: left;
     width: 80vw;
     margin: 0px;
     margin-top: 20px;
+    line-height: 30px;
 }
 #artPlanoUm {
     display: none;
@@ -219,6 +226,9 @@ header img {
 #artPlanoDois {
     display: block;
     margin-bottom: 50px;
+}
+#artPlanoDois h6 {
+    margin-top: 30px;
 }
 
 
@@ -237,20 +247,28 @@ header img {
 }
 .container {
     justify-self: center;
-    grid-template-rows: 350px 220px;
+    grid-template-rows: 350px 120px;
     width: 80vw;
-    max-width: 300px;
+    max-width: 270px;
     margin-bottom: 30px;
 }
 .textoCom {
-    padding: 30px;
+    padding: 10px;
     font-size: 1.1em;
 }
 #ComQuatro {
     display: block;
 }
 
+/*                                                Rodapé             */
 
+
+footer {
+    margin-top: 50px;
+}
+footer h2 {
+    margin-top: 40px;
+}
 
 /*                                                    Outros             */
 
