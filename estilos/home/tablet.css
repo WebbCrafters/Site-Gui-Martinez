@@ -58,6 +58,10 @@ header menu a {
 #secaoPersonalização h2 {
     font-size: 3em;
 }
+#secaoPersonalização p {
+    text-align: left;
+    line-height: 30px;
+}
 
 
 /*                                                    Planos             */

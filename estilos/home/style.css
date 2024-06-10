@@ -61,6 +61,10 @@
 }
 #secaoPersonalização h2 {
     font-size: 3em;
+    line-height: 55px;
+}
+#secaoPersonalização p {
+    text-align: left;
 }
 
 
