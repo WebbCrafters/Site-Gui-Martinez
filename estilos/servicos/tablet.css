@@ -61,7 +61,6 @@ header menu a {
 #conteinerVantagens {
     width: 90%;
     margin-top: 50px;
-    margin-bottom: 100px;
 }
 .gradeVantagens {
     border-radius: 30px;
@@ -92,6 +91,9 @@ header menu a {
     height: 80%;
     padding-top: 20%;
 } 
+#artPlanoUm h6 {
+    margin-top: 50px;
+}
 #sectionPlanejamento ul {
     line-height: 35px;
     font-size: 1em;
@@ -126,6 +128,7 @@ header menu a {
     }
     #artPlanoDois {
         display: block;
+        margin-bottom: 50px;
     }
     #artPlanoDois h6 {
         margin-top: 40px;

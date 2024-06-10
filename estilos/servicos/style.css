@@ -198,6 +198,9 @@
     height: 80%;
     padding-top: 20%;
 } 
+#artPlanoUm h6 {
+    margin-bottom: 10px;
+}
 #sectionPlanejamento ul {
     color: var(--branco);
     line-height: 40px;

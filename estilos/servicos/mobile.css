@@ -248,7 +248,7 @@ header img {
 .container {
     justify-self: center;
     grid-template-rows: 350px 120px;
-    width: 80vw;
+    width: 70vw;
     max-width: 270px;
     margin-bottom: 30px;
 }
