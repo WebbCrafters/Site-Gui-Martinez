@@ -136,6 +136,29 @@ header menu a {
 }
 
 
+/*                                                  eletroestimulacao            */
+
+#eletroestimulacao {
+    margin: auto;
+    width: 80%;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+#eletroestimulacao h2 {
+    margin-bottom: 70px;
+}
+#eletroestimulacao h3 {
+    font-size: 1.2em;
+}
+#eletroestimulacao img {
+    height: 200px;
+}
+#eletroestimulacao .carousel-inner {
+    display: grid;
+}
+
+
 /*                                                    Comentarios             */
 
 
@@ -148,7 +171,7 @@ header menu a {
 #secaoComentarios {
     grid-template-columns: repeat(1, 1fr);
 }
-.container {
+.container, .container1 {
     justify-self: center;
     grid-template-rows: 350px 220px;
     width: 80vw;

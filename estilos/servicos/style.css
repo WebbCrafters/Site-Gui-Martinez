@@ -230,6 +230,94 @@
     display: none;
 }
 
+
+/*                                                  eletroestimulacao            */
+
+#eletroestimulacao {
+    display: grid;
+    align-content: center;
+    margin: auto;
+    grid-template-rows: min-content;
+    width: 80%;
+    grid-template-columns: 60% 40%;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+#eletroestimulacao h2 {
+    margin-bottom: 100px;
+}
+#brEletro {
+    display: none;
+}
+#eletroestimulacao h3 {
+    font-size: 1.5em;
+}
+#eletroestimulacao p {
+    width: 70%;
+    text-align: left;
+}
+#eletroestimulacao img {
+    margin: auto;
+    width: auto;
+    height: 250px;
+}
+.itemVantagens {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.itemVantagens h6 {
+    margin-top: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.itemVantagens {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+.itemVantagens img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
 /*                                                    Comentarios             */
 
 
@@ -248,7 +336,7 @@
     max-width: 2000px; 
     margin-bottom: 200px;
 }
-.container {
+.container, .container1 {
     display: grid;
     position: relative;
     grid-template-rows: 300px 200px;
@@ -261,7 +349,7 @@
     font-size: 1.1em;
     color: var(--preto);
 }
-.container h5 {
+.container h5, .container1 h5 {
     padding: 30px;
 }
 .comentarios {
