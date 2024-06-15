@@ -73,14 +73,14 @@
     grid-row: 2;
     grid-column-start: 1;
     grid-column-end: 5;
-    background-color: var(--azul);
+    color: var(--azul);
     font-weight: 600;
 }
 #g4{
     grid-row: 2;
     grid-column-start: 6;
     grid-column-end: 20;
-    color: var(--azul);
+    background-color: var(--azul);
     font-weight: 600;
 }
 #g5{
@@ -159,6 +159,11 @@
     width: 100%;
     color: var(--branco);
     font-size: 1.7em;
+    transition: ease 1s;
+}
+.gradeVantagens:hover {
+    transform: scale(1.03);
+    border: 2px solid var(--branco);
 }
 #GV1 {
     grid-row: 1;
@@ -196,7 +201,7 @@
 }
 #sectionPlanejamento img {
     height: 80%;
-    padding-top: 20%;
+    padding-top: 10%;
 } 
 #artPlanoUm h6 {
     margin-bottom: 10px;
@@ -358,8 +363,6 @@ button {
 #ComQuatro {
     display: none;
 } 
-
-
 #comentariosCarousel {
     display: none;
 }

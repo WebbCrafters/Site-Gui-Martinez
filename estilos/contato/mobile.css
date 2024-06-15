@@ -99,7 +99,7 @@ article {
     justify-self: center;
     margin-bottom: 70px;
     padding-bottom: 10px;
-    border-bottom: 1px solid var(--azulFraco);
+    /*border-bottom: 1px solid var(--azulFraco);*/
     width: 75vw;
 }
 h6 {

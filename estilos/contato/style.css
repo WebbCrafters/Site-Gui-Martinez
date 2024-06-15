@@ -1,7 +1,4 @@
 
-/*                                                     Corpo             */
-
-
 /*                                                     Header             */
 
 @media screen and (max-width: 600px) {
@@ -14,6 +11,11 @@
         font-size: 0.9em;
     }
 } 
+
+/*                                                     Corpo             */
+
+
+
 
 
 /*                                                    Primeiro tela             */
@@ -58,6 +60,10 @@
 .iconsPT {
     height: 20px;
 }
+
+
+
+
 
 
 /*                                                    Outros             */
