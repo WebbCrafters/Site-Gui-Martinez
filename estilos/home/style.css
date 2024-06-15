@@ -14,12 +14,13 @@
     justify-content: center;
     grid-template-columns: repeat(2, 1fr);
     width: 80vw;
-    max-width: 2000px;
+    max-width: 80%;
     padding-top: 100px;
     height: 500px;
 }
 #primeiraTelaColUm img {
     width: 80%;
+    max-width: 500px;
 }
 #fotoGui {
     display: block;
@@ -53,10 +54,11 @@
     justify-content: center;
     grid-template-columns: repeat(2, 1fr);
     width: 80vw;
-    max-width: 2000px;
+    max-width: 80%;
 }
 #secPerColUm img {
     width: 60%;
+    max-width: 500px;
     padding-left: 50px;
 }
 #secaoPersonalização h2 {
@@ -81,7 +83,7 @@
     padding: 50px 0px 50px 0px;
     grid-template-columns: repeat(2, 1fr);
     width: 78.5vw;
-    max-width: 2000px;
+    max-width: 80%;
 }
 #secaoPlanos h3 {
     margin-top: 0px;
@@ -91,7 +93,7 @@
     background-color: var(--corpo);
 }
 #planosDois {
-    background: url(../../imagens/homem-corda.png) no-repeat;
+    background: url(../../imagens/homem-corda-compactado.png) no-repeat;
     background-size: cover;
     background-position: center center;
 }

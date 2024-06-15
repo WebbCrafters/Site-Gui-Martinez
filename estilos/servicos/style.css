@@ -23,6 +23,7 @@
     grid-template-columns: repeat(1, 1fr);
 }
 #conteinerUm img {
+    max-width: 800px;
     width: 45vw;
     grid-row: 1;
 }
@@ -342,10 +343,12 @@ button {
     margin-bottom: 200px;
 }
 .container, .container1 {
+    margin: auto;
     display: grid;
     position: relative;
-    grid-template-rows: 300px 200px;
+    grid-template-rows: 400px 150px;
     width: 25vw;
+    max-width: 400px;
     background-color: var(--branco);
     border-radius: 5px;
 }

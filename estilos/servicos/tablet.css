@@ -173,7 +173,7 @@ header menu a {
 }
 .container, .container1 {
     justify-self: center;
-    grid-template-rows: 350px 220px;
+    grid-template-rows: 400px 150px;
     width: 80vw;
     max-width: 300px;
     margin-bottom: 30px;

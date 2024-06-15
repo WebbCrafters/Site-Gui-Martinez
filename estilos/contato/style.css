@@ -33,6 +33,7 @@
     height: 700px;
 }
 #primeiraTela img {
+    margin: 0px auto 0px auto;
     max-width: 80vw;
     grid-row-start: 1;
     grid-row-end: 2;

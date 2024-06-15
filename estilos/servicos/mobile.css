@@ -289,7 +289,7 @@ header img {
 }
 .container, .container1 {
     justify-self: center;
-    grid-template-rows: 350px 120px;
+    grid-template-rows: 360px 130px;
     width: 70vw;
     max-width: 270px;
     margin-bottom: 30px;
