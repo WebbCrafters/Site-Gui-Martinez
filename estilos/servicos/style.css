@@ -40,7 +40,7 @@
     width: 100%;
     grid-template-columns: repeat(20, 1fr);
 }
-#conteinerDois span.grade {
+#conteinerDois .grade {
     margin: 5px;
     text-align: center;
     justify-content: center;
